@@ -7,12 +7,12 @@ int main(int argc, char *argv[])  {
   int columns = 0;
   cout << "Enter number of rows and columns:" << endl;
   cin >> rows >> columns;
-  for (int r =  rows; r > 0; r = r - 1){
-      for (int c =  columns; c > 0; c = c - 1){
-        cout <<"X."; 
+  for (int r =  rows; r > 0; r--){
+      for (int c =  columns; c > 0; c--){
+	      cout <<"X."; 
   }
     cout << endl;
     rows --;
   }
-
+  cout << endl;
   } 
