@@ -11,8 +11,7 @@ int main(int argc, char *argv[])  {
       for (int c =  columns; c > 0; c--){
 	      cout <<"X."; 
   }
-    cout << endl;
+    cout << "\n";
     rows--;
   }
-  cout << "\n" <<endl;
   } 
