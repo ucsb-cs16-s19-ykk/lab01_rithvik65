@@ -15,7 +15,7 @@ do{
 		double s = 0;
 		double g = 0;
 
-		cout<< "Enter the value of parameter 'n' in the Leibniz formula (or -1 to quit):" << endl;
+		cout<< "Enter the value of the parameter 'n' in the Leibniz formula (or -1 to quit):" << endl;
 		cin >> n;
 
 		if (n >= 0){
