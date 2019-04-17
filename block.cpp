@@ -12,7 +12,7 @@ int main(int argc, char *argv[])  {
 	      cout <<"X."; 
   }
     cout << endl;
-    rows --;
+    rows--;
   }
-  cout << endl;
+  cout << "\n" <<endl;
   } 
