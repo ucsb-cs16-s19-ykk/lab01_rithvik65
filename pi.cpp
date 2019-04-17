@@ -18,17 +18,17 @@ do{
 		cout<< "Enter the value of the parameter 'n' in the Leibniz formula (or -1 to quit):" << endl;
 		cin >> n;
 
-		if (n > 0){
+		if (n >= 0){
 			for (int a = 0; a < n+1; a++) {
 				s = (pow(-1,a))/(2*a + 1);
 				g = g + s;
 	}
 			pi = 4 * g;
-			if (n != 1){
-				cout << "The approximate value of pi using " << n+1 << " terms is: "<< pi << endl;
+			if (n == 0){
+				cout << "The approximate value of pi using " << n+1 << " term is: "<< pi << endl;
 			}
 			else {
-				cout << "The approximate value of pi using " << n+1 << " term is: "<< pi << endl;
+				cout << "The approximate value of pi using " << n+1 << " terms is: "<< pi << endl;
 			}
 		}
 
