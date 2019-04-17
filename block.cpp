@@ -14,5 +14,5 @@ int main(int argc, char *argv[])  {
     cout << "\n";
     rows--;
   }
-	cout << "\n";
+	cout << "\n"<< endl;
   } 
