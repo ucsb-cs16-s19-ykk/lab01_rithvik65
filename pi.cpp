@@ -8,13 +8,13 @@ int main(int argc, char *argv[]) {
 	cout.setf(ios::fixed);
 	cout.setf(ios::showpoint);
 	cout.precision(3);
+	int n = 0;
+do{
+		int a = 0;
+		double pi = 0;
+		double s = 0;
+		double g = 0;
 
-	int a = 0;
-	int n = -1;
-	double pi = 0;
-	double s = 0;
-	double g = 0;
-	do{	
 		cout<< "Enter the value of parameter 'n' in the Leibniz formula (or -1 to quit):" << endl;
 		cin >> n;
 
